@@ -13,5 +13,7 @@ if [ -n "$cmd" ]; then
     disown
     clear
     echo "Running"
+    sleep 1
+    clear
 fi
 
