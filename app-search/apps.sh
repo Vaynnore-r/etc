@@ -4,7 +4,7 @@
 # 1. Pobieramy pliki z /usr/bin, /bin itd.
 # 2. Usuwamy duplikaty
 # 3. Wybieramy przez fzf
-cmd=$(ls /usr/bin /bin /usr/local/bin 2>/dev/null | sort -u | fzf --height 40% --reverse --border --prompt="Szukaj aplikacji: ")
+cmd=$(ls /usr/bin /bin /usr/local/bin 2>/dev/null | sort -u | fzf --height 40% --reverse --border --prompt="Search: ")
 
 if [ -n "$cmd" ]; then
     # Sprawdzamy czy to aplikacja GUI (np. chrome) czy terminalowa
