@@ -1,0 +1,10 @@
+#!/bin/bash
+# Poproś o hasło raz na początku
+sudo -v
+
+# Odświeżaj sesję w tle co 60 sekund
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# Twoje komendy wymagające sudo
+sudo dnf install -y some-package
+# ... dalsza część skryptu
