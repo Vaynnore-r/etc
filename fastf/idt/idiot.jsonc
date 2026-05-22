@@ -1,0 +1,81 @@
+{
+    "$schema": "https://github.com",
+    "logo": {
+        "type": "auto",
+        "source": "~/.config/fastfetch/idiot_ascii.txt", // Tutaj masz swój plik
+        "color": {
+            "1": "magenta", // Kolor Twojego ASCII (jeśli terminal wspiera barwienie)
+            "2": "bright_white"
+        },
+        "padding": {
+            "top": 2,
+            "right": 4
+        }
+    },
+    "display": {
+        "separator": " ➜  ",
+        "color": {
+            "keys": "magenta",        // Klucze w kolorze fuksji
+            "title": "bright_white",   // Użytkownik@Host na biało
+            "output": "bright_white"   // Same dane (specyfikacja) na biało
+        },
+        "key": {
+            "width": 12 // Wyrównuje klucze, żeby wyglądały jak kolumna
+        }
+    },
+    "modules": [
+        "title",
+        {
+            "type": "custom",
+            "format": "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
+            "outputColor": "bright_magenta"
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "STUPID OS"
+        },
+        {
+            "type": "host",
+            "key": "TRASH CAN"
+        },
+        {
+            "type": "kernel",
+            "key": "VIRUS"
+        },
+        {
+            "type": "uptime",
+            "key": "TIME WASTED"
+        },
+        {
+            "type": "packages",
+            "key": "JUNK"
+        },
+        {
+            "type": "shell",
+            "key": "SHOUTER"
+        },
+        {
+            "type": "terminal",
+            "key": "CELL"
+        },
+        {
+            "type": "cpu",
+            "key": "BRAIN"
+        },
+        {
+            "type": "memory",
+            "key": "AMNESIA"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "rect",
+            "block": {
+                "range": [1, 6]
+            }
+        }
+    ]
+}
+
+
