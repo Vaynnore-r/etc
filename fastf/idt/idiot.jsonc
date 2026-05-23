@@ -2,7 +2,7 @@
     "$schema": "https://github.com",
     "logo": {
         "type": "auto",
-        "source": "~/.config/fastfetch/idiot_ascii.txt", // Tutaj masz swój plik
+        "source": "logo.txt", // Tutaj masz swój plik
         "color": {
             "1": "magenta", // Kolor Twojego ASCII (jeśli terminal wspiera barwienie)
             "2": "bright_white"
@@ -27,7 +27,7 @@
         "title",
         {
             "type": "custom",
-            "format": "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
+            "format": "You Are An Idiot! HAHAHAHAHA",
             "outputColor": "bright_magenta"
         },
         "break",
