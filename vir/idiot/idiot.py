@@ -69,7 +69,7 @@ def create_window():
             new_x = random.randint(0, sw - 250)
             new_y = random.randint(0, sh - 200)
             root.geometry(f"+{new_x}+{new_y}")
-            root.after(300, jump)
+            root.after(200, jump)
         except:
             pass
 
@@ -81,7 +81,7 @@ def bomb():
         thread = threading.Thread(target=create_window)
         thread.daemon = True
         thread.start()
-        time.sleep(0.5) 
+        time.sleep(0.1) 
 
 if __name__ == "__main__":
     # Ukryty start audio

@@ -1,0 +1,5 @@
+Commands:
+
+pyinstaller --onefile --noconsole --exclude-module numpy --exclude-module pandas --exclude-module matplotlib --add-data "idiot.mp3:." idiot.py
+
+
